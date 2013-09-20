@@ -7,3 +7,8 @@ Tools Menu including icons, then you can grab it here.
 
 See INSTALL for how to integrate this into your existing
 Openbox menu.
+
+
+
+Note:
+Currently under development...
