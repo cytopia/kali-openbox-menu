@@ -5,7 +5,7 @@ Find the <menu> Section (near bottom) and place the menu_kali.xml somewhere into
   <openbox_config>
     <menu>
       ...
-      <file>menu_kali.xml</file>
+      <file>kali_menu.xml</file>
       ...
     </menu>
   </openbox_config>
@@ -14,4 +14,4 @@ Find the <menu> Section (near bottom) and place the menu_kali.xml somewhere into
 Edit ~/.config/openbox/menu.xml
 
 Place the following line at the position of the menu.xml where you want the kali menu to appear.
-  <menu icon=".config/openbox/icons/kali/kali.png" id="/Kali"/>
+  <menu icon=".config/openbox/icons/kali_menu/kali-menu.png" id="/Kali"/>
