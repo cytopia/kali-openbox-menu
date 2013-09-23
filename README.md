@@ -19,7 +19,7 @@ If you want to contribute, feel free.
 ## Todo:
 
 - [X] Finish menus
-- [ ] Finish submenus
+- [X] Finish submenus
 - [ ] Finish launchers
 - [ ] Finalize install instructions
 - [ ] Make opened terminal default to system settings
