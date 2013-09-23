@@ -213,13 +213,55 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis' label='Vulnerability Analysis'>
-			<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis/CiscoTools' label='Cisco Tools'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis/DatabaseAssessment' label='Database Assessment'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis/FuzzingTools' label='Fuzzing Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis/MiscScanners' label='Misc Scanners'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis/OpenSourceAssessment' label='Open Source Assessment'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis/OpenVAS' label='OpenVAS'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Vulnerability Analysis -->
 
@@ -231,13 +273,64 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications' label='Web Applications'>
-			<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications/CMSIdentification' label='CMS Identification'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications/DatabaseExploitation' label='Database Exploitation'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications/IDSIPSIdentification' label='IDS/IPS Identification'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications/WebApplicationFuzzers' label='Web Application Fuzzers'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications/WebApplicationProxies' label='Web Application Proxies'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications/WebCrawlers' label='Web Crawlers'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/web-application-trans.png" id='/Kali/WebApplications/WebVulnerabilityScanners' label='Web Vulnerability Scanners'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+
 		</menu>
 		<!-- End of Web Applications -->
 
@@ -249,13 +342,39 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/password-attacks-trans.png" id='/Kali/PasswordAttacks' label='Password Attacks'>
-			<menu icon=".config/openbox/icons/kali_menu/password-attacks-trans.png" id='/Kali/PasswordAttacks/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/password-attacks-trans.png" id='/Kali/PasswordAttacks/GPUTools' label='GPU Tools'>
 				<item icon=".config/openbox/icons/kali_menu/application-trans.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/password-attacks-trans.png" id='/Kali/PasswordAttacks/OfflineAttacks' label='Offline Attacks'>
+				<item icon=".config/openbox/icons/kali_menu/application-trans.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/password-attacks-trans.png" id='/Kali/PasswordAttacks/OnlineAttacks' label='Online Attacks'>
+				<item icon=".config/openbox/icons/kali_menu/application-trans.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/password-attacks-trans.png" id='/Kali/PasswordAttacks/PassingtheHash' label='Passing the Hash'>
+				<item icon=".config/openbox/icons/kali_menu/application-trans.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Password Attacks -->
 
@@ -267,13 +386,74 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks' label='Wireless Attacks'>
-			<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/80211WirelessTools' label='802.11 Wireless Tools'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/BluetoothTools' label='Bluetooth Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/OtherWirelessTools' label='Other Wireless Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+
+			<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/RFIDNFCTools' label='RFID / NFC Tools'>
+
+				<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/RFIDNFCTools/NFCTools' label='NFC Tools'>
+					<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+						<action name='Execute'>
+							<execute>command_goes_here</execute>
+						</action>
+					</item>
+				</menu>
+				<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/RFIDNFCTools/RFIDiotACG' label='RFIDiot ACG'>
+					<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+						<action name='Execute'>
+							<execute>command_goes_here</execute>
+						</action>
+					</item>
+				</menu>
+				<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/RFIDNFCTools/RFIDiotFROSCH' label='RFIDiot FROSCH'>
+					<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+						<action name='Execute'>
+							<execute>command_goes_here</execute>
+						</action>
+					</item>
+				</menu>
+				<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/RFIDNFCTools/RFIDiotPCSC' label='RFIDiot PCSC'>
+					<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+						<action name='Execute'>
+							<execute>command_goes_here</execute>
+						</action>
+					</item>
+				</menu>
+
+			</menu>
+
+
+			<menu icon=".config/openbox/icons/kali_menu/wireless-attacks-trans.png" id='/Kali/WirelessAttacks/SoftwareDefinedRadio' label='Software Defined Radio'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Wireless Attacks -->
 
@@ -285,13 +465,55 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/exploitation-tools-trans.png" id='/Kali/ExploitationTools' label='Exploitation Tools'>
-			<menu icon=".config/openbox/icons/kali_menu/exploitation-tools-trans.png" id='/Kali/ExploitationTools/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/exploitation-tools-trans.png" id='/Kali/ExploitationTools/BeEFXSSFramework' label='BeEF XSS Framework'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/exploitation-tools-trans.png" id='/Kali/ExploitationTools/CiscoAttacks' label='Cisco Attacks'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/exploitation-tools-trans.png" id='/Kali/ExploitationTools/ExploitDatabase' label='Exploit Database'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/exploitation-tools-trans.png" id='/Kali/ExploitationTools/Metasploit' label='Metasploit'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/exploitation-tools-trans.png" id='/Kali/ExploitationTools/NetworkExploitation' label='Network Exploitation'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/exploitation-tools-trans.png" id='/Kali/ExploitationTools/SocialEngineeringToolkit' label='Social Engineering Toolkit'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Exploitation Tools -->
 
@@ -303,13 +525,47 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/sniffing-spoofing-trans.png" id='/Kali/SniffingSpoofing' label='Sniffing/Spoofing'>
-			<menu icon=".config/openbox/icons/kali_menu/sniffing-spoofing-trans.png" id='/Kali/SniffingSpoofing/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/sniffing-spoofing-trans.png" id='/Kali/SniffingSpoofing/NetworkSniffers' label='Network Sniffers'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/sniffing-spoofing-trans.png" id='/Kali/SniffingSpoofing/NetworkSpoofing' label='Network Spoofing'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/sniffing-spoofing-trans.png" id='/Kali/SniffingSpoofing/VoiceandSurveillance' label='Voice and Surveillance'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/sniffing-spoofing-trans.png" id='/Kali/SniffingSpoofing/VoIPTools' label='VoIP Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/sniffing-spoofing-trans.png" id='/Kali/SniffingSpoofing/WebSniffers' label='Web Sniffers'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Sniffing/Spoofing -->
 
@@ -321,13 +577,31 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/maintaining-access-trans.png" id='/Kali/MaintainingAccess' label='Maintaining Access'>
-			<menu icon=".config/openbox/icons/kali_menu/maintaining-access-trans.png" id='/Kali/MaintainingAccess/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/maintaining-access-trans.png" id='/Kali/MaintainingAccess/OSBackdors' label='OS Backdors'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/maintaining-access-trans.png" id='/Kali/MaintainingAccess/TunnelingTools' label='Tunneling Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/maintaining-access-trans.png" id='/Kali/MaintainingAccess/WebBackdorrs' label='Web Backdorrs'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Maintaining Access -->
 
@@ -339,13 +613,29 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/reverse-engineering-trans.png" id='/Kali/ReverseEngineering' label='Reverse Engineering'>
-			<menu icon=".config/openbox/icons/kali_menu/reverse-engineering-trans.png" id='/Kali/ReverseEngineering/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/reverse-engineering-trans.png" id='/Kali/ReverseEngineering/Debuggers' label='Debuggers'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+			<menu icon=".config/openbox/icons/kali_menu/reverse-engineering-trans.png" id='/Kali/ReverseEngineering/Disassembly' label='Disassembly'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+			<menu icon=".config/openbox/icons/kali_menu/reverse-engineering-trans.png" id='/Kali/ReverseEngineering/MiscRETools' label='Misc RE Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Reverse Engineering -->
 
@@ -357,13 +647,39 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/stress-testing-trans.png" id='/Kali/StressTesting' label='Stress Testing'>
-			<menu icon=".config/openbox/icons/kali_menu/stress-testing-trans.png" id='/Kali/StressTesting/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/stress-testing-trans.png" id='/Kali/StressTesting/NetworkStressTesting' label='Network Stress Testing'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/stress-testing-trans.png" id='/Kali/StressTesting/VoIPStressTesting' label='VoIP Stress Testing'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/stress-testing-trans.png" id='/Kali/StressTesting/WebStressTesting' label='Web Stress Testing'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/stress-testing-trans.png" id='/Kali/StressTesting/WLANStressTesting' label='WLAN Stress Testing'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Stress Testing -->
 
@@ -376,13 +692,23 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/hardware-hacking-trans.png" id='/Kali/HardwareHacking' label='Hardware Hacking'>
-			<menu icon=".config/openbox/icons/kali_menu/hardware-hacking-trans.png" id='/Kali/HardwareHacking/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/hardware-hacking-trans.png" id='/Kali/HardwareHacking/AndroidTools' label='Android Tools'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/hardware-hacking-trans.png" id='/Kali/HardwareHacking/ArduinoTools' label='Arduino Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Hardware Hacking -->
 
@@ -394,13 +720,103 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics' label='Forensics'>
-			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/AntiVirusForensicsTool' label='Anti-Virus Forensics Tool'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/DigitalAntiForensics' label='Digital Anti-Forensics'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/DigitalForensics' label='Digital Forensics'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/ForensicAnalysisTools' label='Forensic Analysis Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/ForensicCarvingTools' label='Forensic Carving Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/ForensicHashingTools' label='Forensic Hashing Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/ForensicImagingTools' label='Forensic Imaging Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/ForensicSuites' label='Forensic Suites'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/NetworkForensics' label='Network Forensics'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/PasswordForensicsTools' label='Password Forensics Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/PDFForensicsTools' label='PDF Forensics Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/forensics-trans.png" id='/Kali/Forensics/RAMForensicsTools' label='RAM Forensics Tools'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Forensics -->
 
@@ -412,13 +828,31 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/reporting-tools-trans.png" id='/Kali/Reporting Tools' label='Reporting Tools'>
-			<menu icon=".config/openbox/icons/kali_menu/reporting-tools-trans.png" id='/Kali/Reporting Tools/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/reporting-tools-trans.png" id='/Kali/Reporting Tools/Documentation' label='Documentation'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/reporting-tools-trans.png" id='/Kali/Reporting Tools/EvidenceManagement' label='Evidence Management'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/reporting-tools-trans.png" id='/Kali/Reporting Tools/MediaCapture' label='Media Capture'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of Reporting Tools -->
 
@@ -430,13 +864,63 @@
 		###########################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services' label='System Services'>
-			<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services/Accessibility' label='Accessibility'>
+
+			<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services/BeEF' label='BeEF'>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
 			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services/Dradis' label='Dradis'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services/HTTP' label='HTTP'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services/Metasploit' label='Metasploit'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services/MySQL' label='MySQL'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services/OpenVAS' label='OpenVAS'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
+			<menu icon=".config/openbox/icons/kali_menu/system-services-trans.png" id='/Kali/System Services/SSH' label='SSH'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+			</menu>
+
 		</menu>
 		<!-- End of System Services -->
 
