@@ -13,12 +13,12 @@
 		<menu icon=".config/openbox/icons/kali_menu/kali-menu.png" id='/Kali/Top10' label='Top 10 Security Tools'>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='aircrack-ng'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'aircrack-ng' -e sh -c "aircrack-ng --help; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='burpsuite'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>java -jar /usr/bin/burpsuite.jar</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='hydra'>
@@ -28,37 +28,37 @@
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='john'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'john' -e sh -c  "john; bash -l"</execute>
 				</action>
 			</item>
-			<item icon=".config/openbox/icons/kali_menu/application.png" label='maltega'>
+			<item icon=".config/openbox/icons/kali_menu/application.png" label='maltego'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>maltego</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='metasploit-framework'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'metasploit' -e sh -c  "msfconsole; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c  "nmap; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='owasp-zap'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>zap</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='sqlmap'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'sqlmap' -e sh -c  "sqlmap -h; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='wireshark'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>gksu wireshark</execute>
 				</action>
 			</item>
 
