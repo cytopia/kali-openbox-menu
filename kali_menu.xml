@@ -4,11 +4,13 @@
 
 	<menu id='/Kali' label='Kali Tools'>
 		<!--
-		###########################################################################################
-		#
-		#  TOP 10 Security Tools
-		#
-		###########################################################################################
+		###############################################################################################################################################################
+		###############################################################################################################################################################
+		##
+		##  TOP 10 Security Tools
+		##
+		###############################################################################################################################################################
+		###############################################################################################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/kali-menu.png" id='/Kali/Top10' label='Top 10 Security Tools'>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='aircrack-ng'>
@@ -65,152 +67,786 @@
 		</menu>
 		<separator/>
 
+
 		<!--
-		###########################################################################################
-		#
-		#  Information Gathering
-		#
-		###########################################################################################
+		###############################################################################################################################################################
+		###############################################################################################################################################################
+		##
+		##  Information Gathering
+		##
+		###############################################################################################################################################################
+		###############################################################################################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering' label='Information Gathering'>
 
+
+			<!--
+			###########################################################################################
+			#
+			# DNS Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/DNSAnalysis' label='DNS Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsdict6'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsenum'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsrecon'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsrevenum6'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnstracker'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnswalk'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='fierce'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='maltego'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='urlcrazy'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+
+			<!--
+			###########################################################################################
+			#
+			# IDS/IPS Identification
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/IDSIPSIdentification' label='IDS/IPS Identification'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='fragroute'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='fragrouter'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='ftest'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='lbd'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='wafw00f'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# Live Host Identification
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/LiveHostIdentification' label='Live Host Identification'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='alive6'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='arping'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='cdpsnarf'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='detect-new-ip6'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='detect_sniffer6'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dmitry'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='fping'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='hping3'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='inverse_lookup6'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='miranda'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='ncat'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='netdiscover'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='passive_discovery'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='thcping6'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='wol-e'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='xprobe2'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# Network Scanners
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/NetworkScanners' label='Network Scanners'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dmitry'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='netdiscover'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# OS Fingerprinting
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/OSFingerprinting' label='OS Fingerprinting'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='miranda'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# OSINT Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/OSINTAnalysis' label='OSINT Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='casefile'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='creepy'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dmitry'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='jigsaw'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='maltego'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='metagoofil'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='theharvester'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='twofi'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='urlcrazy'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# Route Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/RouteAnalysis' label='Route Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='0trace'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='intrace'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='netmask'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='trace6'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# Service Fingerprinting
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/ServiceFingerprinting' label='Service Fingerprinting'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='implementation6'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='implementation6d'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='ncat'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslscan'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslyze'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='tlssled'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# SMB Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/SMBAnalysis' label='SMB Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='acccheck'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nbtscan'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# SMTP Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/SMTPAnalysis' label='SMTP Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='smtp-user-enum'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='swaks'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# SNMP Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/SNMPAnalysis' label='SNMP Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='braa'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='cisco-auditing-tool'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='cisco-torch'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='copy-router-config'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='merge-router-config'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='onesixtyone'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='snmpcheck'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# SSL Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/SSLAnalysis' label='SSL Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslcaudit'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='ssldump'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslh'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslscan'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslsniff'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslsplit'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslstrip'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslyze'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='stunnel4'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='tlssled'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# Telephony Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/TelephonyAnalysis' label='Telephony Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='ace'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# Traffic Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/TrafficAnalysis' label='Traffic Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='0trace'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='cdpsnarf'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='ftest'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='intrace'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='irpas-ass'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='irpass-cdp'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='p0f'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='tcpflow'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='wireshark'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# VoIP Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/VoIPAnalysis' label='VoIP Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='ace'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='enumiax'>
+					<action name='Execute'>
+						<execute>command_goes_here</execute>
+					</action>
+				</item>
+
 			</menu>
 
+			<!--
+			###########################################################################################
+			#
+			# VPN Analysis
+			#
+			###########################################################################################
+			-->
 			<menu icon=".config/openbox/icons/kali_menu/info-gathering-trans.png" id='/Kali/InformationGathering/VPNAnalysis' label='VPN Analysis'>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='Xmag'>
+
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='ike-scan'>
 					<action name='Execute'>
 						<execute>command_goes_here</execute>
 					</action>
 				</item>
+
 			</menu>
 
 		</menu>
 		<!-- End of Information Gathering -->
 
+
+
 		<!--
-		###########################################################################################
-		#
-		#  Vulnerability Analysis
-		#
-		###########################################################################################
+		###############################################################################################################################################################
+		###############################################################################################################################################################
+		##
+		##  Vulnerability Analysis
+		##
+		###############################################################################################################################################################
+		###############################################################################################################################################################
 		-->
 		<menu icon=".config/openbox/icons/kali_menu/vuln-assessment-trans.png" id='/Kali/VulnerabilityAnalysis' label='Vulnerability Analysis'>
 
