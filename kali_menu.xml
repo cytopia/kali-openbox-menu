@@ -60,7 +60,7 @@
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='wireshark'>
 				<action name='Execute'>
-					<execute>gksu wireshark</execute>
+					<execute>wireshark</execute>
 				</action>
 			</item>
 
@@ -92,57 +92,62 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsdict6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsdict6' -e sh -c  "dnsdict6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsenum'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsenum' -e sh -c  "dnsenum -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsmap' -e sh -c  "dnsmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsrecon'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsrecon' -e sh -c  "dnsrecon.py -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsrevenum6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsrevenum6' -e sh -c  "dnsrevenum6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnstracker'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnstracker' -e sh -c  "dnstracker; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnswalk'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnswalk' -e sh -c  "dnswalk --help; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='fierce'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'fierce' -e sh -c  "fierce -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='maltego'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>maltego</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c  "nmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='urlcrazy'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'urlcrazy' -e sh -c  "urlcrazy -h; bash -l"</execute>
+					</action>
+				</item>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
+					<action name='Execute'>
+						<execute>zenmap</execute>
 					</action>
 				</item>
 
