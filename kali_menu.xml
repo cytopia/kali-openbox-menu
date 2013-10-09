@@ -25,12 +25,12 @@
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='hydra'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c  "hydra; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'hydra' -e sh -c "hydra; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='john'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'john' -e sh -c  "john; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'john' -e sh -c "john; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='maltego'>
@@ -40,12 +40,12 @@
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='metasploit-framework'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'metasploit' -e sh -c  "msfconsole; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'metasploit' -e sh -c "msfconsole; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c  "nmap; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='owasp-zap'>
@@ -55,7 +55,7 @@
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='sqlmap'>
 				<action name='Execute'>
-					<execute>urxvtcd -geometry 100x30 -title 'sqlmap' -e sh -c  "sqlmap -h; bash -l"</execute>
+					<execute>urxvtcd -geometry 100x30 -title 'sqlmap' -e sh -c "sqlmap -h; bash -l"</execute>
 				</action>
 			</item>
 			<item icon=".config/openbox/icons/kali_menu/application.png" label='wireshark'>
@@ -92,42 +92,42 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsdict6'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'dnsdict6' -e sh -c  "dnsdict6; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsdict6' -e sh -c "dnsdict6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsenum'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'dnsenum' -e sh -c  "dnsenum -h; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsenum' -e sh -c "dnsenum -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsmap'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'dnsmap' -e sh -c  "dnsmap; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsmap' -e sh -c "dnsmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsrecon'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'dnsrecon' -e sh -c  "dnsrecon.py -h; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsrecon' -e sh -c "dnsrecon.py -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnsrevenum6'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'dnsrevenum6' -e sh -c  "dnsrevenum6; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnsrevenum6' -e sh -c "dnsrevenum6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnstracker'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'dnstracker' -e sh -c  "dnstracker; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnstracker' -e sh -c "dnstracker; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnswalk'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'dnswalk' -e sh -c  "dnswalk --help; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnswalk' -e sh -c "dnswalk --help; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='fierce'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'fierce' -e sh -c  "fierce -h; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'fierce' -e sh -c "fierce -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='maltego'>
@@ -137,12 +137,12 @@
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c  "nmap; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='urlcrazy'>
 					<action name='Execute'>
-						<execute>urxvtcd -geometry 100x30 -title 'urlcrazy' -e sh -c  "urlcrazy -h; bash -l"</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'urlcrazy' -e sh -c "urlcrazy -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
@@ -165,27 +165,27 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='fragroute'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'fragroute' -e sh -c "fragroute -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='fragrouter'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'fragrouter' -e sh -c "fragrouter -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='ftest'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'ftest' -e sh -c "ftest; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='lbd'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'lbd' -e sh -c "lbd; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='wafw00f'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'wafw00f' -e sh -c "wafw00f -h; bash -l"</execute>
 					</action>
 				</item>
 
@@ -202,102 +202,102 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='alive6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'alive6' -e sh -c "alive6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='arping'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'arping' -e sh -c "arping; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='cdpsnarf'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'cdpsnarf' -e sh -c "cdpsnarf -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='detect-new-ip6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'detect-new-ip6' -e sh -c "detect-new-ip6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='detect_sniffer6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'detect_sniffer6' -e sh -c "detect_sniffer6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dmitry'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dmitry' -e sh -c "dmitry; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-client' -e sh -c "dnmap_client; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-server' -e sh -c "dnmap_server; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='fping'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'fping' -e sh -c "fping -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='hping3'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'hping3' -e sh -c "hping3 -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='inverse_lookup6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'inverse_lookup6' -e sh -c "inverse_lookup6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='miranda'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'miranda' -e sh -c "miranda -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='ncat'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'ncat' -e sh -c "ncat -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='netdiscover'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'netdiscover' -e sh -c "netdiscover -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 					</action>
 				</item>
-				<item icon=".config/openbox/icons/kali_menu/application.png" label='passive_discovery'>
+				<item icon=".config/openbox/icons/kali_menu/application.png" label='passive_discovery6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'passive_discovery6' -e sh -c "passive_discovery6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='thcping6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'thcping6' -e sh -c "thcping6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='wol-e'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'wol-e' -e sh -c "wol-e -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='xprobe2'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'xprobe2' -e sh -c "xprobe2 -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>zenmap</execute>
 					</action>
 				</item>
 
@@ -314,32 +314,32 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dmitry'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dmitry' -e sh -c "dmitry; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-client' -e sh -c "dnmap_client; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-server' -e sh -c "dnmap_server; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='netdiscover'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'netdiscover' -e sh -c "netdiscover -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>zenmap</execute>
 					</action>
 				</item>
 
@@ -356,27 +356,27 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-client' -e sh -c "dnmap_client; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-server' -e sh -c "dnmap_server; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='miranda'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'miranda' -e sh -c "miranda -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>zenmap</execute>
 					</action>
 				</item>
 
@@ -393,47 +393,47 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='casefile'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>casefile</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='creepy'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>creepy</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dmitry'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dmitry' -e sh -c "dmitry; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='jigsaw'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'jigsaw' -e sh -c "jigsaw -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='maltego'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>maltego</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='metagoofil'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'metagoofil' -e sh -c "metagoofil; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='theharvester'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'theharvester' -e sh -c "theharvester; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='twofi'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'twofi' -e sh -c "twofi -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='urlcrazy'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'urlcrazy' -e sh -c "urlcrazy -h; bash -l"</execute>
 					</action>
 				</item>
 
@@ -450,32 +450,32 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='0trace'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title '0trace' -e sh -c "0trace.sh; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-client' -e sh -c "dnmap_client; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-server' -e sh -c "dnmap_server; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='intrace'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'intrace' -e sh -c "intrace; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='netmask'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'netmask' -e sh -c "netmask -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='trace6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'trace6' -e sh -c "trace6; bash -l"</execute>
 					</action>
 				</item>
 
@@ -492,52 +492,52 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-client'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-client' -e sh -c "dnmap_client; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='dnmap-server'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'dnmap-server' -e sh -c "dnmap_server; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='implementation6'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'implementation6' -e sh -c "implementation6; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='implementation6d'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'implementation6d' -e sh -c "implementation6d; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='ncat'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'ncat' -e sh -c "ncat -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslscan'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslscan' -e sh -c "sslscan; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslyze'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslyze' -e sh -c "sslyze -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='tlssled'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'tlssled' -e sh -c "tlssled; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>zenmap</execute>
 					</action>
 				</item>
 
@@ -554,22 +554,22 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='acccheck'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'acccheck' -e sh -c "acccheck.pl; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nbtscan'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nbtscan' -e sh -c "nbtscan -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>zenmap</execute>
 					</action>
 				</item>
 
@@ -586,22 +586,22 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='smtp-user-enum'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'smtp-user-enum' -e sh -c "smtp-user-enum -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='swaks'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'swaks' -e sh -c "swaks --help; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>zenmap</execute>
 					</action>
 				</item>
 
@@ -618,47 +618,47 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='braa'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'braa' -e sh -c "braa -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='cisco-auditing-tool'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'cisco-auditing-tool' -e sh -c "CAT; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='cisco-torch'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'cisco-torch' -e sh -c "cisco-torch.pl; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='copy-router-config'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'copy-router-config' -e sh -c "copy-router-config.pl; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='merge-router-config'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'merge-router-config' -e sh -c "merge-router-config.pl; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='nmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'nmap' -e sh -c "nmap; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='onesixtyone'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'onesixtyone' -e sh -c "onesixtyone; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='snmpcheck'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'snmpcheck' -e sh -c "snmpcheck -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='zenmap'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>zenmap</execute>
 					</action>
 				</item>
 
@@ -675,52 +675,52 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslcaudit'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslcaudit' -e sh -c "sslcaudit -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='ssldump'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'ssldump' -e sh -c "ssldump -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslh'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslh' -e sh -c "sslh -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslscan'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslscan' -e sh -c "sslscan; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslsniff'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslsniff' -e sh -c "sslsniff; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslsplit'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslsplit' -e sh -c "sslsplit -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslstrip'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslstrip' -e sh -c "sslstrip -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='sslyze'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'sslyze' -e sh -c "sslyze -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='stunnel4'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'stunnel4' -e sh -c "stunnel4 -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='tlssled'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'tlssled' -e sh -c "tlssled; bash -l"</execute>
 					</action>
 				</item>
 
@@ -737,7 +737,7 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='ace'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'ace' -e sh -c "ace; bash -l"</execute>
 					</action>
 				</item>
 
@@ -754,47 +754,47 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='0trace'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title '0trace' -e sh -c "0trace.sh; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='cdpsnarf'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'cdpsnarf' -e sh -c "cdpsnarf -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='ftest'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'ftest' -e sh -c "ftest; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='intrace'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'intrace' -e sh -c "intrace; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='irpas-ass'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'irpas-ass' -e sh -c "ass -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='irpass-cdp'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'irpass-cdp' -e sh -c "cdp; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='p0f'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'p0f' -e sh -c "p0f -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='tcpflow'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'tcpflow' -e sh -c "tcpflow -h; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='wireshark'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>wireshark</execute>
 					</action>
 				</item>
 
@@ -811,12 +811,12 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='ace'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'ace' -e sh -c "ace; bash -l"</execute>
 					</action>
 				</item>
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='enumiax'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'enumiax' -e sh -c "enumiax -h; bash -l"</execute>
 					</action>
 				</item>
 
@@ -833,7 +833,7 @@
 
 				<item icon=".config/openbox/icons/kali_menu/application.png" label='ike-scan'>
 					<action name='Execute'>
-						<execute>command_goes_here</execute>
+						<execute>urxvtcd -geometry 100x30 -title 'ike-scan' -e sh -c "ike-scan -h; bash -l"</execute>
 					</action>
 				</item>
 
