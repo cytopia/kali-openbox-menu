@@ -29,6 +29,18 @@ Place the following line at the position of the menu.xml where you want the kali
 
 * Copy icons folder to ~/.config/openbox so that it looks like:
   ~/.config/openbox/icons/kali_menu
+  
+  
+  
+  
+  
+Note:
+
+rxvt-unicode package is required
+
+ 
+
+
 
 
 
