@@ -1,22 +1,54 @@
-Kali Linux Menu for Openbox
-===========================
+# Kali Linux Menu for Openbox
 
-If you use Kali Linux with Openbox and want to have the nice
-Tools Menu including icons, then you can grab it here.
+If you use Kali Linux with Openbox and want to have the nice tools menu including icons, then you can grab it here.
 
 
-See [INSTALL](INSTALL) for how to integrate this into your existing
-Openbox menu.
+## Requirements
+
+`rxvt-unicode` package is required
+
+
+## Installation
+
+### 1. Edit `~/.config/openbox/rc.conf`
+
+Find the `<menu>` Section (near bottom) and place `<file>menu_kali.xml</file>` somewhere into it.
+```xml
+<openbox_config>
+	<menu>
+		...
+		<file>kali_menu.xml</file>
+		...
+	</menu>
+</openbox_config>
+```
+
+### 2. Edit `~/.config/openbox/menu.xml`
+
+Place the following line at the position of the `menu.xml` where you want the kali menu to appear.
+```xml
+	<menu icon=".config/openbox/icons/kali_menu/kali-menu.png" id="/Kali"/>
+```
+
+### 3. Copy files
+
+* Copy `kali_menu.xml` to `~/.config/openbox/kali_menu.xml`
+* Copy `icons` folder to `~/.config/openbox` so that it looks like:
+
+```
+~/.config/openbox/icons/kali_menu
+```
 
 
 
-## Note:
+## Note
 
 Currently under development...
 If you want to contribute, feel free.
 
 
-## Todo:
+
+## Todo
 
 - [X] Finish menus
 - [X] Finish submenus
