@@ -4,7 +4,7 @@ If you use Kali Linux with Openbox and want to have the nice tools menu includin
 
 **NOTE:**
 
-If you want an icon-less version you can use the following command to remove the icons from the menu:
+If you want an icon-less version (for `#!` aka `crunchbang`) you can use the following command to remove the icons from the menu:
 
 ```shell
 cat kali_menu.xml | sed 's/\sicon=".*"//g' > kali_menu-no_icons.xml
