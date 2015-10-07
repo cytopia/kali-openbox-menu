@@ -2,6 +2,11 @@
 
 If you use Kali Linux with Openbox and want to have the nice tools menu including icons, then you can grab it here.
 
+**UPDATE:**
+
+Another version without icons is available as well.
+
+
 
 ## Requirements
 
@@ -29,10 +34,15 @@ Place the following line at the position of the `menu.xml` where you want the ka
 ```xml
 	<menu icon=".config/openbox/icons/kali_menu/kali-menu.png" id="/Kali"/>
 ```
+Or for the icon-less variant:
+```xml
+	<menu id="/Kali"/>
+```
+
 
 ### 3. Copy files
 
-* Copy `kali_menu.xml` to `~/.config/openbox/kali_menu.xml`
+* Copy `kali_menu.xml` (with icons) or `kali_menu-no_icons.xml` (without icons) to `~/.config/openbox/kali_menu.xml`
 * Copy `icons` folder to `~/.config/openbox` so that it looks like:
 
 ```
