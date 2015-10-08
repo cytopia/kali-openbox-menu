@@ -58,7 +58,14 @@ Place the following line at the position of the `menu.xml` where you want the ka
 * Copy `icons` folder to `~/.config/openbox` so that it looks like:
 
 ```
-~/.config/openbox/icons/kali_menu
+$ ls -l ~/.config/openbox/
+total 184
+drwxr-xr-x 4 cytopia cytopia  4096 Oct  8  2015 icons/
+-rw-r--r-- 1 cytopia cytopia  4315 Apr  6  2015 autostart
+-rw-r--r-- 1 cytopia cytopia   389 May 11  2015 environment
+-rw-r--r-- 1 cytopia cytopia 75284 May 11  2015 kali_menu.xml
+-rw-r--r-- 1 cytopia cytopia 47101 Nov  1  2015 menu.xml
+-rw-r--r-- 1 cytopia cytopia 32618 May 11  2015 rc.xml
 ```
 
 ## Todo
