@@ -32,9 +32,9 @@ sudo yum install rxvt-unicode
 
 ## Installation
 
-### 1. Edit `~/.config/openbox/rc.conf`
+### 1. Edit `~/.config/openbox/rc.xml`
 
-Find the `<menu>` Section (near bottom) and place `<file>menu_kali.xml</file>` somewhere into it.
+Find the `<menu>` Section (near bottom) and place `<file>kali_menu.xml</file>` somewhere into it.
 ```xml
 <openbox_config>
 	<menu>
